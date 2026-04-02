@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "conflict-test": "bash scripts/test-conflicts.sh"
+    "postinstall": "npx bmad-method install"
+  },
+  "dependencies": {
+    "bmad-method": "^1.0.0"
   },
   "optionalDependencies": {
     "ecc-universal": "^1.9.0"

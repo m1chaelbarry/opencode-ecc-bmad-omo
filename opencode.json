@@ -3,11 +3,6 @@
   "instructions": [
     "REPO_CONSTITUTION.md"
   ],
-  "agent": {
-    "build": {
-      "description": "Default development agent with ECC + BMAD + OmO"
-    }
-  },
   "compaction": {
     "auto": true,
     "prune": true
@@ -16,9 +11,7 @@
     "ignore": [
       "node_modules/**",
       "dist/**",
-      ".next/**",
-      "_bmad/**",
-      "_bmad-output/**"
+      ".next/**"
     ]
   }
 }
