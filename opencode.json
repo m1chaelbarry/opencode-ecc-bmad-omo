@@ -1,0 +1,24 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "REPO_CONSTITUTION.md"
+  ],
+  "agent": {
+    "build": {
+      "description": "Default development agent with ECC + BMAD + OmO"
+    }
+  },
+  "compaction": {
+    "auto": true,
+    "prune": true
+  },
+  "watcher": {
+    "ignore": [
+      "node_modules/**",
+      "dist/**",
+      ".next/**",
+      "_bmad/**",
+      "_bmad-output/**"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  // OmO (oh-my-openagent) extracted features config
+  // Hashline edit is always on — improves edit success rate from ~7% to ~68%
+  // Other features are opt-in via .env.local
+
+  "hashline_edit": true,
+  "hashline_exclude": [
+    "_generated/**",
+    "*.lock",
+    "*.d.ts",
+    "node_modules/**",
+    ".next/**"
+  ],
+
+  // Sisyphus agent — DISABLED. Conflicts with ECC agent routing.
+  "sisyphus_agent": { "disabled": true },
+
+  // Ralph loop — DISABLED. ECC's /loop-start is equivalent.
+  "ralph_loop": { "disabled": true },
+
+  // ULW loop — DISABLED. ECC handles this.
+  "ulw_loop": { "disabled": true },
+
+  // OmO skills — DISABLED. ECC/BMAD skills are the superset.
+  "skills": { "disabled": true }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.env.local
+.env.*.local
+dist/
+.next/
+_bmad-output/
+_generated/
+*.lock
+*.d.ts
+.DS_Store

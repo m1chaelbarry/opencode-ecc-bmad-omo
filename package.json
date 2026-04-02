@@ -1,0 +1,11 @@
+{
+  "name": "opencode-ecc-bmad-omo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "conflict-test": "bash scripts/test-conflicts.sh"
+  },
+  "optionalDependencies": {
+    "ecc-universal": "^1.9.0"
+  }
+}
